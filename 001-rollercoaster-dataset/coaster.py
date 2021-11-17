@@ -26,12 +26,11 @@ def parse_coaster_infobox(url, coaster_name, filter_cols=False):
                      'G-force', 'Designer',
                      'Max vertical angle', 'Drop', 'Soft opening date',
                      'Fast Lane available', 'Replaced', 'Track layout',
-                     'Fastrack available','Soft opening date',
+                     'Fastrack available', 'Soft opening date',
                      'Closing date', 'Opened', 'Replaced by', 'General Statistics',
                      'Website', 'Flash Pass Available', 'Must transfer from wheelchair',
                      'Theme', 'Single rider line available',
-                     'Restraint Style',
-                      'Flash Pass available', 'Acceleration',
+                     'Restraint Style', 'Flash Pass available', 'Acceleration',
                       'Restraints', 'Name']
 
         FILTERED_KEYS = [v for v in df.index if v in MAIN_KEYS]
